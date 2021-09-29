@@ -1,0 +1,469 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.big-wrapper{
+    width: 100%;
+    background-image: url(../img/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+    background-size: cover;
+      
+
+}
+  
+
+.container-fluid{
+    padding: 50px;
+    background-image: url("../img/bg-markets.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+   
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+
+    nav{
+        text-align: start;
+        position: relative;
+        top: 30px;
+        font-family: 'Arvo', sans-serif;
+
+
+    
+        
+
+        h1{
+            float: left;
+            color: #fff;
+            font-family: 'Arvo', sans-serif;
+            font-size: 35px;
+            
+            
+            
+        }
+
+        h1:hover{
+            color: darkorange;
+            transition:all 0.5s ease-in-out 0.1s ;
+
+        }
+
+        ul{
+            float: right;
+
+        }
+
+        li{
+            float: left;
+            list-style-type: none;
+            padding-right: 40px;
+            margin-top: 20px;
+
+            
+
+            a{
+                font-size: 20px;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        
+        a:hover{
+            color: darkorange;
+            transition:all 0.5s ease-in-out 0.1s ;
+
+        }
+
+        button{
+            float: right;
+            display: none;
+            border: 0;
+            border-radius: 2px;
+            margin-top: 15px;
+            font-size: 20px
+        }
+
+        button:hover{
+            background-color: darkorange;
+        }
+
+       
+     
+    }
+
+    
+
+
+    .banner{
+        text-align: center;
+       
+        
+        
+        
+        font-weight: 500;
+        letter-spacing: 5px;
+        padding: 250px 0;
+    
+        h1{
+            font-weight: 500;
+            font-style: italic;
+            font-family: 'Pacifico', cursive;
+            font-size: 60px;
+            color: orangered;
+            transition:all 0.5s ease-in 0.1s ;
+        }
+
+        h1:hover{
+            transform: scale(1.2);
+            ;
+        }
+
+
+        
+    
+        h2{
+            margin-top: 30px;
+            font-weight: 400;
+            padding-bottom: 50px;
+            line-height: 45px;
+            font-family: 'Pacifico', cursive;
+            font-size: 30px;
+            color: #dbdbdb;
+    
+        }
+
+        h2:hover{
+            color: orange;
+            transition:all 0.5s ease-in-out 0.1s ;
+            transform: scale(1.2);
+
+        }
+    
+    
+        a{
+            color: #fff;
+            text-decoration: none;
+            
+            padding: 25px 70px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+       
+
+        .fa{
+            font-size: 50px;
+
+        }
+
+        .fa:hover{
+            color: orange;
+            transition:all 0.5s ease-in-out 0.1s ;
+            transform: scale(1.2);  
+        }
+    
+        .btn{
+            border: none;
+            border-radius:40px ;
+            
+       
+
+        }
+        .btn:hover{
+            background-color: darkorange;
+            border-radius:40px ;
+            width: 243px;
+            transition:all 0.5s ease-in-out 0.1s ;
+         }
+    }
+
+  
+
+   
+    .row{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 0;
+
+        .about{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 0;
+        
+       
+
+        
+        .photo{
+
+            img{
+                border-radius: 100%;
+                width: 100%;
+                padding: 2px;
+                border: 5px solid rgb(79, 79, 79);    
+            }
+
+        }
+
+        .text{
+
+
+            h1{
+                font-size: 50px;
+                font-family: 'Scheherazade New', sans-serif;
+                text-align: center;
+            }
+
+            h1:hover{
+                color: orange;
+                transition:all 0.5s ease-in-out 0.1s ;
+
+            }
+
+            p{
+                font-size: 20px;
+                text-align: center;
+                color: grey;
+                line-height: 30px;
+                font-family: 'Open Sans', sans-serif;
+
+                b{
+                    color: orangered;
+                }
+            }
+        }
+
+        .left{
+            width: 45%;
+            float: left;
+            margin-top: 50px;
+            
+        }
+        
+        .right{
+            width: 45%;
+            float: right;
+            margin-top: 50px;
+            
+
+
+        }
+
+       
+        .progress{
+            
+          width: 100%;
+          height: 20px;
+          border: 1px solid grey;
+          
+        }
+
+        }
+
+        a{
+            font-size: 50px;
+            margin: 0 auto;
+
+        }
+
+        a:hover{
+            color: orange;
+            transition:all 0.5s ease-in-out 0.1s ;
+            transform: scale(1.2);  
+        }
+
+    }
+
+    .Portfolio{
+        margin: 50px 0;
+        padding: 60px 0;
+
+        
+        h1{
+            color: #fff;
+            font-family: 'Scheherazade New', sans-serif;
+            font-size: 50px;
+            padding-bottom: 30px ;
+            text-align: center;
+
+        }
+
+        h1:hover{
+            color: orange;
+            transition:all 0.5s ease-in-out 0.1s ;
+
+        }
+
+        ul{
+            font-size:20px;
+            color: grey;
+        }
+
+        .first-p{
+            background-color: gold;
+            padding:  150px 0;
+        }
+
+        .second-p{
+            background-color: silver;
+            padding: 150px 0;
+
+        }
+
+        .third-p{
+            background-color: brown;
+            padding: 150px 0;
+
+        }
+
+        .fourth-p{
+            background-color: grey;
+            padding: 150px 0;
+
+        }
+
+    }
+
+    .contacts{
+       
+        text-align: center;
+        padding: 100px;
+        
+
+
+        h1{
+            font-family: 'Scheherazade New', sans-serif;
+            font-size: 50px;
+
+        }
+        h1:hover{
+            color: orange;
+            transition:all 0.5s ease-in-out 0.1s ;
+
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            color: grey;
+            padding: 30px 0;
+        }
+
+        
+
+
+        .icons{
+
+            
+
+            span{
+            
+            color: rgb(144, 86, 86);
+            border-radius: 100%;
+            font-size: 40px;
+            padding:   35px ;
+            transition:all 2s linear 0 ;
+            text-align: center;
+
+            }
+
+            span:hover{
+                transform: scale(1.2);
+                color: orange;
+                transition:all 0.5s ease-in-out 0.1s ;
+
+
+                
+            }
+        
+        }
+
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:1000px){
+
+    nav{
+        ul{
+            display: none;
+        }
+    
+        button{
+            display:block;
+        }
+
+    }
+
+    .about{
+        .photo{
+
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    
+
+  
+}
+
+@media only screen and (max-width:768px){
+
+    nav{
+        ul{
+            display: none;
+        }
+    
+        button{
+            display:block;
+        }
+
+    }
+
+    .banner{
+        width: 100%;
+        h1{
+            font-size: 1px;
+        }
+    }
+
+    .about{
+        .photo{
+
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        
+        .left{
+            padding-left:7px ;
+        }
+
+        .right{
+            padding-right: 7px;
+        }
+        
+    }
+    
+
+  
+}
+
+
+
+
+
+
+
+
+

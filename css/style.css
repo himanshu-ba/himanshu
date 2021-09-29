@@ -1,0 +1,369 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.big-wrapper {
+  width: 100%;
+  background-image: url(../img/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
+  background-size: cover;
+}
+
+.container-fluid {
+  padding: 50px;
+  background-image: url("../img/bg-markets.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.container nav {
+  text-align: start;
+  position: relative;
+  top: 30px;
+  font-family: 'Arvo', sans-serif;
+}
+
+.container nav h1 {
+  float: left;
+  color: #fff;
+  font-family: 'Arvo', sans-serif;
+  font-size: 35px;
+}
+
+.container nav h1:hover {
+  color: darkorange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.container nav ul {
+  float: right;
+}
+
+.container nav li {
+  float: left;
+  list-style-type: none;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+
+.container nav li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container nav a:hover {
+  color: darkorange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.container nav button {
+  float: right;
+  display: none;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.container nav button:hover {
+  background-color: darkorange;
+}
+
+.container .banner {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 250px 0;
+}
+
+.container .banner h1 {
+  font-weight: 500;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: orangered;
+  -webkit-transition: all 0.5s ease-in 0.1s;
+  transition: all 0.5s ease-in 0.1s;
+}
+
+.container .banner h1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .banner h2 {
+  margin-top: 30px;
+  font-weight: 400;
+  padding-bottom: 50px;
+  line-height: 45px;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #dbdbdb;
+}
+
+.container .banner h2:hover {
+  color: orange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .banner a {
+  color: #fff;
+  text-decoration: none;
+  padding: 25px 70px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container .banner .fa {
+  font-size: 50px;
+}
+
+.container .banner .fa:hover {
+  color: orange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .banner .btn {
+  border: none;
+  border-radius: 40px;
+}
+
+.container .banner .btn:hover {
+  background-color: darkorange;
+  border-radius: 40px;
+  width: 243px;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 0;
+}
+
+.container .row .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 0;
+}
+
+.container .row .about .photo img {
+  border-radius: 100%;
+  width: 100%;
+  padding: 2px;
+  border: 5px solid #4f4f4f;
+}
+
+.container .row .about .text h1 {
+  font-size: 50px;
+  font-family: 'Scheherazade New', sans-serif;
+  text-align: center;
+}
+
+.container .row .about .text h1:hover {
+  color: orange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.container .row .about .text p {
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container .row .about .text p b {
+  color: orangered;
+}
+
+.container .row .about .left {
+  width: 45%;
+  float: left;
+  margin-top: 50px;
+}
+
+.container .row .about .right {
+  width: 45%;
+  float: right;
+  margin-top: 50px;
+}
+
+.container .row .about .progress {
+  width: 100%;
+  height: 20px;
+  border: 1px solid grey;
+}
+
+.container .row a {
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.container .row a:hover {
+  color: orange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .Portfolio {
+  margin: 50px 0;
+  padding: 60px 0;
+}
+
+.container .Portfolio h1 {
+  color: #fff;
+  font-family: 'Scheherazade New', sans-serif;
+  font-size: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.container .Portfolio h1:hover {
+  color: orange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.container .Portfolio ul {
+  font-size: 20px;
+  color: grey;
+}
+
+.container .Portfolio .first-p {
+  background-color: gold;
+  padding: 150px 0;
+}
+
+.container .Portfolio .second-p {
+  background-color: silver;
+  padding: 150px 0;
+}
+
+.container .Portfolio .third-p {
+  background-color: brown;
+  padding: 150px 0;
+}
+
+.container .Portfolio .fourth-p {
+  background-color: grey;
+  padding: 150px 0;
+}
+
+.container .contacts {
+  text-align: center;
+  padding: 100px;
+}
+
+.container .contacts h1 {
+  font-family: 'Scheherazade New', sans-serif;
+  font-size: 50px;
+}
+
+.container .contacts h1:hover {
+  color: orange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.container .contacts p {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  padding: 30px 0;
+}
+
+.container .contacts .icons span {
+  color: #905656;
+  border-radius: 100%;
+  font-size: 40px;
+  padding: 35px;
+  -webkit-transition: all 2s linear 0;
+  transition: all 2s linear 0;
+  text-align: center;
+}
+
+.container .contacts .icons span:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: orange;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+@media only screen and (max-width: 1000px) {
+  nav ul {
+    display: none;
+  }
+  nav button {
+    display: block;
+  }
+  .about .photo {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  nav button {
+    display: block;
+  }
+  .banner {
+    width: 100%;
+  }
+  .banner h1 {
+    font-size: 1px;
+  }
+  .about .photo {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .about .left {
+    padding-left: 7px;
+  }
+  .about .right {
+    padding-right: 7px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
