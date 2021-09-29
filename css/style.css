@@ -284,6 +284,7 @@ html {
   text-decoration: none;
   border-radius: 10px;
   margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container .second {
@@ -293,6 +294,7 @@ html {
   text-decoration: none;
   border-radius: 10px;
   margin-bottom: 30px;
+  font-family: 'Arvo', sans-serif;
 }
 
 .container .third {
@@ -302,6 +304,7 @@ html {
   text-decoration: none;
   border-radius: 10px;
   margin-bottom: 30px;
+  font-family: 'Scheherazade New', sans-serif;
 }
 
 .container .contacts {
