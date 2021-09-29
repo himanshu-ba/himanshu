@@ -25,6 +25,7 @@ html{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
     position: relative;
     z-index: 1;
 
@@ -283,25 +284,34 @@ html{
 
     }
 
+
+    h1{
+        color: #fff;
+        font-family: 'Scheherazade New', sans-serif;
+        font-size: 50px;
+        padding-bottom: 30px ;
+        text-align: center;
+        
+
+    }
+
+    h1:hover{
+        color: orange;
+        transition:all 0.5s ease-in-out 0.1s ;
+
+    }
+
     .Portfolio{
         margin: 50px 0;
         padding: 60px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         
-        h1{
-            color: #fff;
-            font-family: 'Scheherazade New', sans-serif;
-            font-size: 50px;
-            padding-bottom: 30px ;
-            text-align: center;
 
-        }
-
-        h1:hover{
-            color: orange;
-            transition:all 0.5s ease-in-out 0.1s ;
-
-        }
+        
+        
 
         ul{
             font-size:20px;
@@ -311,23 +321,35 @@ html{
         .first-p{
             background-color: gold;
             padding:  150px 0;
+            background-image: url(../img/hielo.png);
+            background-size: cover;
+        }
+
+        .first-p:hover{
+            transform: scale(1.5);
         }
 
         .second-p{
             background-color: silver;
             padding: 150px 0;
+            background-image: url(../img/hielo.png);
+            background-size: cover;
 
         }
 
         .third-p{
             background-color: brown;
             padding: 150px 0;
+            background-image: url(../img/hielo.png);
+            background-size: cover;
 
         }
 
         .fourth-p{
             background-color: grey;
             padding: 150px 0;
+            background-image: url(../img/hielo.png);
+            background-size: cover;
 
         }
 
@@ -337,15 +359,18 @@ html{
        
         text-align: center;
         padding: 100px;
+        color: black;
+
+
         
 
 
-        h1{
+        h2{
             font-family: 'Scheherazade New', sans-serif;
             font-size: 50px;
 
         }
-        h1:hover{
+        h2:hover{
             color: orange;
             transition:all 0.5s ease-in-out 0.1s ;
 

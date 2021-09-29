@@ -244,12 +244,7 @@ html {
           transform: scale(1.2);
 }
 
-.container .Portfolio {
-  margin: 50px 0;
-  padding: 60px 0;
-}
-
-.container .Portfolio h1 {
+.container h1 {
   color: #fff;
   font-family: 'Scheherazade New', sans-serif;
   font-size: 50px;
@@ -257,10 +252,23 @@ html {
   text-align: center;
 }
 
-.container .Portfolio h1:hover {
+.container h1:hover {
   color: orange;
   -webkit-transition: all 0.5s ease-in-out 0.1s;
   transition: all 0.5s ease-in-out 0.1s;
+}
+
+.container .Portfolio {
+  margin: 50px 0;
+  padding: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container .Portfolio ul {
@@ -271,34 +279,48 @@ html {
 .container .Portfolio .first-p {
   background-color: gold;
   padding: 150px 0;
+  background-image: url(../img/hielo.png);
+  background-size: cover;
+}
+
+.container .Portfolio .first-p:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .container .Portfolio .second-p {
   background-color: silver;
   padding: 150px 0;
+  background-image: url(../img/hielo.png);
+  background-size: cover;
 }
 
 .container .Portfolio .third-p {
   background-color: brown;
   padding: 150px 0;
+  background-image: url(../img/hielo.png);
+  background-size: cover;
 }
 
 .container .Portfolio .fourth-p {
   background-color: grey;
   padding: 150px 0;
+  background-image: url(../img/hielo.png);
+  background-size: cover;
 }
 
 .container .contacts {
   text-align: center;
   padding: 100px;
+  color: black;
 }
 
-.container .contacts h1 {
+.container .contacts h2 {
   font-family: 'Scheherazade New', sans-serif;
   font-size: 50px;
 }
 
-.container .contacts h1:hover {
+.container .contacts h2:hover {
   color: orange;
   -webkit-transition: all 0.5s ease-in-out 0.1s;
   transition: all 0.5s ease-in-out 0.1s;
