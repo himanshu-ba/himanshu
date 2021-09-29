@@ -9,10 +9,10 @@ html {
 }
 
 .container-fluid {
-  padding: 50px;
   background-image: url("../img/bg-markets.jpg");
   background-size: cover;
   background-attachment: fixed;
+  padding: 0;
 }
 
 .container {
@@ -25,14 +25,14 @@ html {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  position: relative;
-  z-index: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container nav {
   text-align: start;
-  position: relative;
-  top: 30px;
+  margin-top: 50px;
   font-family: 'Arvo', sans-serif;
 }
 
@@ -57,7 +57,7 @@ html {
   float: left;
   list-style-type: none;
   padding-right: 40px;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .container nav li a {
@@ -108,7 +108,7 @@ html {
 }
 
 .container .banner h2 {
-  margin-top: 30px;
+  margin: 80px 0px;
   font-weight: 400;
   padding-bottom: 50px;
   line-height: 45px;
@@ -123,6 +123,20 @@ html {
   transition: all 0.5s ease-in-out 0.1s;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.container .banner .btn {
+  border: none;
+  border-radius: 40px;
+  margin-top: 50px;
+}
+
+.container .banner .btn:hover {
+  background-color: darkorange;
+  border-radius: 40px;
+  width: 243px;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  transition: all 0.5s ease-in-out 0.1s;
 }
 
 .container .banner a {
@@ -145,19 +159,6 @@ html {
           transform: scale(1.2);
 }
 
-.container .banner .btn {
-  border: none;
-  border-radius: 40px;
-}
-
-.container .banner .btn:hover {
-  background-color: darkorange;
-  border-radius: 40px;
-  width: 243px;
-  -webkit-transition: all 0.5s ease-in-out 0.1s;
-  transition: all 0.5s ease-in-out 0.1s;
-}
-
 .container .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,10 +168,10 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
-.container .row .about {
+.container .about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,26 +183,26 @@ html {
   padding: 50px 0;
 }
 
-.container .row .about .photo img {
+.container .about .photo img {
   border-radius: 100%;
   width: 100%;
   padding: 2px;
   border: 5px solid #4f4f4f;
 }
 
-.container .row .about .text h1 {
+.container .about .text h1 {
   font-size: 50px;
   font-family: 'Scheherazade New', sans-serif;
   text-align: center;
 }
 
-.container .row .about .text h1:hover {
+.container .about .text h1:hover {
   color: orange;
   -webkit-transition: all 0.5s ease-in-out 0.1s;
   transition: all 0.5s ease-in-out 0.1s;
 }
 
-.container .row .about .text p {
+.container .about .text p {
   font-size: 20px;
   text-align: center;
   color: grey;
@@ -209,34 +210,41 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.container .row .about .text p b {
+.container .about .text p b {
   color: orangered;
 }
 
-.container .row .about .left {
+.container .about .left {
   width: 45%;
   float: left;
   margin-top: 50px;
 }
 
-.container .row .about .right {
-  width: 45%;
-  float: right;
-  margin-top: 50px;
-}
-
-.container .row .about .progress {
+.container .about .left .progress {
   width: 100%;
   height: 20px;
   border: 1px solid grey;
 }
 
-.container .row a {
+.container .about .right {
+  width: 45%;
+  float: right;
+  margin-top: 50px;
+  background-color: #905656;
+}
+
+.container .about .right .progress {
+  width: 100%;
+  height: 20px;
+  border: 1px solid grey;
+}
+
+.container a {
   font-size: 50px;
   margin: 0 auto;
 }
 
-.container .row a:hover {
+.container a:hover {
   color: orange;
   -webkit-transition: all 0.5s ease-in-out 0.1s;
   transition: all 0.5s ease-in-out 0.1s;
@@ -244,23 +252,33 @@ html {
           transform: scale(1.2);
 }
 
-.container h1 {
+.container .Portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 150px 0px;
+}
+
+.container .Portfolio h1 {
   color: #fff;
   font-family: 'Scheherazade New', sans-serif;
   font-size: 50px;
-  padding-bottom: 30px;
+  padding: 50px 0px;
   text-align: center;
 }
 
-.container h1:hover {
+.container .Portfolio h1:hover {
   color: orange;
   -webkit-transition: all 0.5s ease-in-out 0.1s;
   transition: all 0.5s ease-in-out 0.1s;
 }
 
-.container .Portfolio {
-  margin: 50px 0;
-  padding: 60px 0;
+.container .links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -271,56 +289,41 @@ html {
           justify-content: space-between;
 }
 
-.container .Portfolio ul {
-  font-size: 20px;
-  color: grey;
+.container .first {
+  padding: 80px 0;
+  border: 2px solid red;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
-.container .Portfolio .first-p {
-  background-color: gold;
-  padding: 150px 0;
-  background-image: url(../img/hielo.png);
-  background-size: cover;
+.container .second {
+  border: 2px solid red;
+  padding: 80px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
-.container .Portfolio .first-p:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
-.container .Portfolio .second-p {
-  background-color: silver;
-  padding: 150px 0;
-  background-image: url(../img/hielo.png);
-  background-size: cover;
-}
-
-.container .Portfolio .third-p {
-  background-color: brown;
-  padding: 150px 0;
-  background-image: url(../img/hielo.png);
-  background-size: cover;
-}
-
-.container .Portfolio .fourth-p {
-  background-color: grey;
-  padding: 150px 0;
-  background-image: url(../img/hielo.png);
-  background-size: cover;
+.container .third {
+  padding: 80px 0;
+  border: 2px solid red;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 .container .contacts {
   text-align: center;
-  padding: 100px;
-  color: black;
+  padding: 100px 0;
 }
 
 .container .contacts h2 {
   font-family: 'Scheherazade New', sans-serif;
-  font-size: 50px;
+  font-size: 55px;
 }
 
-.container .contacts h2:hover {
+.container .contacts h1:hover {
   color: orange;
   -webkit-transition: all 0.5s ease-in-out 0.1s;
   transition: all 0.5s ease-in-out 0.1s;
@@ -351,7 +354,7 @@ html {
   transition: all 0.5s ease-in-out 0.1s;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   nav ul {
     display: none;
   }
@@ -386,6 +389,10 @@ html {
   }
   .about .right {
     padding-right: 7px;
+  }
+  .second {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

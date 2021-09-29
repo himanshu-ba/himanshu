@@ -6,38 +6,30 @@ html{
     width: 100%;
     background-image: url(../img/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg);
     background-size: cover;
-      
-
 }
   
 
 .container-fluid{
-    padding: 50px;
     background-image: url("../img/bg-markets.jpg");
     background-size: cover;
     background-attachment: fixed;
-    
-
-   
+    padding: 0;
 }
 .container{
     
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+    justify-content: space-between;
     
-    position: relative;
-    z-index: 1;
+    // NAV
 
     nav{
         text-align: start;
-        position: relative;
-        top: 30px;
+        margin-top: 50px;
         font-family: 'Arvo', sans-serif;
-
-
-    
         
+
 
         h1{
             float: left;
@@ -64,7 +56,7 @@ html{
             float: left;
             list-style-type: none;
             padding-right: 40px;
-            margin-top: 20px;
+            margin-top:35px;
 
             
 
@@ -99,14 +91,10 @@ html{
     }
 
     
-
+// BANNER //
 
     .banner{
         text-align: center;
-       
-        
-        
-        
         font-weight: 500;
         letter-spacing: 5px;
         padding: 250px 0;
@@ -129,38 +117,52 @@ html{
         
     
         h2{
-            margin-top: 30px;
+            margin: 80px 0px;
             font-weight: 400;
             padding-bottom: 50px;
             line-height: 45px;
             font-family: 'Pacifico', cursive;
             font-size: 30px;
             color: #dbdbdb;
-    
         }
 
         h2:hover{
             color: orange;
             transition:all 0.5s ease-in-out 0.1s ;
             transform: scale(1.2);
-
         }
     
     
+      
+
+       
+
+       
+    
+        .btn{
+            border: none;
+            border-radius:40px ;
+            margin-top: 50px;
+        }
+        .btn:hover{
+            background-color: darkorange;
+            border-radius:40px ;
+            width: 243px;
+            transition:all 0.5s ease-in-out 0.1s ;
+        }
+
+
         a{
             color: #fff;
-            text-decoration: none;
-            
+            text-decoration: none;    
             padding: 25px 70px;
             font-size: 20px;
             font-weight: 500;
         }
 
-       
 
         .fa{
             font-size: 50px;
-
         }
 
         .fa:hover{
@@ -168,51 +170,36 @@ html{
             transition:all 0.5s ease-in-out 0.1s ;
             transform: scale(1.2);  
         }
-    
-        .btn{
-            border: none;
-            border-radius:40px ;
-            
-       
-
-        }
-        .btn:hover{
-            background-color: darkorange;
-            border-radius:40px ;
-            width: 243px;
-            transition:all 0.5s ease-in-out 0.1s ;
-         }
     }
 
   
-
+//ABOUT//
    
     .row{
     
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 50px 0;
+        padding: 100px 0;
 
-        .about{
+    }
+    
+    .about{
         
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 50px 0;
-        
-       
+  
+            .photo{
 
-        
-        .photo{
-
-            img{
+                img{
                 border-radius: 100%;
                 width: 100%;
                 padding: 2px;
                 border: 5px solid rgb(79, 79, 79);    
             }
-
+  
         }
 
         .text{
@@ -243,10 +230,20 @@ html{
             }
         }
 
+
         .left{
             width: 45%;
             float: left;
             margin-top: 50px;
+
+
+            .progress{
+            
+                width: 100%;
+                height: 20px;
+                border: 1px solid grey;
+            }  
+              
             
         }
         
@@ -254,123 +251,128 @@ html{
             width: 45%;
             float: right;
             margin-top: 50px;
+            background-color: rgb(144, 86, 86);
             
-
+            .progress{
+            
+                width: 100%;
+                height: 20px;
+                border: 1px solid grey;
+                
+            }
 
         }
+
 
        
-        .progress{
-            
-          width: 100%;
-          height: 20px;
-          border: 1px solid grey;
-          
-        }
 
-        }
-
-        a{
-            font-size: 50px;
-            margin: 0 auto;
-
-        }
-
-        a:hover{
-            color: orange;
-            transition:all 0.5s ease-in-out 0.1s ;
-            transform: scale(1.2);  
-        }
 
     }
 
 
-    h1{
-        color: #fff;
-        font-family: 'Scheherazade New', sans-serif;
-        font-size: 50px;
-        padding-bottom: 30px ;
-        text-align: center;
+    a{
         
-
+        font-size: 50px;
+        margin: 0 auto;
     }
 
-    h1:hover{
+    a:hover{
         color: orange;
         transition:all 0.5s ease-in-out 0.1s ;
-
+        transform: scale(1.2);  
     }
 
+   
+
+   
+
+
+
+
+  //PORTFOLIO//
+
+  
+
     .Portfolio{
-        margin: 50px 0;
-        padding: 60px 0;
+
+        
+        
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-
-        
-
-        
-        
-
-        ul{
-            font-size:20px;
-            color: grey;
-        }
-
-        .first-p{
-            background-color: gold;
-            padding:  150px 0;
-            background-image: url(../img/hielo.png);
-            background-size: cover;
-        }
-
-        .first-p:hover{
-            transform: scale(1.5);
-        }
-
-        .second-p{
-            background-color: silver;
-            padding: 150px 0;
-            background-image: url(../img/hielo.png);
-            background-size: cover;
+        padding: 150px 0px;
+       
+       
+        h1{
+            color: #fff;
+            font-family: 'Scheherazade New', sans-serif;
+            font-size: 50px;
+            padding: 50px 0px;
+            text-align: center;
 
         }
 
-        .third-p{
-            background-color: brown;
-            padding: 150px 0;
-            background-image: url(../img/hielo.png);
-            background-size: cover;
+        h1:hover{
+            color: orange;
+            transition:all 0.5s ease-in-out 0.1s ;
 
         }
-
-        .fourth-p{
-            background-color: grey;
-            padding: 150px 0;
-            background-image: url(../img/hielo.png);
-            background-size: cover;
-
-        }
-
     }
+
+    
+
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .first{
+        padding: 80px 0;
+        border: 2px solid red ;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+
+                 
+    }
+
+    .second{
+        border: 2px solid red ; 
+        padding: 80px 0;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+               
+    }
+
+
+    .third{
+        padding: 80px 0;
+        border: 2px solid red;  
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+                
+    }
+
+
+    //CONTACTS//
 
     .contacts{
        
         text-align: center;
-        padding: 100px;
-        color: black;
-
-
+        padding: 100px 0;
         
 
 
         h2{
             font-family: 'Scheherazade New', sans-serif;
-            font-size: 50px;
+            font-size: 55px;
 
         }
-        h2:hover{
+        h1:hover{
             color: orange;
             transition:all 0.5s ease-in-out 0.1s ;
 
@@ -417,7 +419,7 @@ html{
 }
 
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1200px){
 
     nav{
         ul{
@@ -479,6 +481,14 @@ html{
         }
         
     }
+
+    .second{
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+
     
 
   
