@@ -251,7 +251,7 @@ html{
             width: 45%;
             float: right;
             margin-top: 50px;
-            background-color: rgb(144, 86, 86);
+            
             
             .progress{
             
@@ -300,6 +300,7 @@ html{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        
         padding: 150px 0px;
        
        
@@ -321,12 +322,7 @@ html{
 
     
 
-    .links{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
-    }
+   
 
     .first{
         padding: 80px 0;
@@ -334,6 +330,7 @@ html{
         text-align: center;
         text-decoration: none;
         border-radius: 10px;
+        margin-bottom: 30px;
 
                  
     }
@@ -344,17 +341,19 @@ html{
         text-align: center;
         text-decoration: none;
         border-radius: 10px;
+        margin-bottom: 30px;
                
     }
 
 
     .third{
-        padding: 80px 0;
+        padding: 100px 0;
         border: 2px solid red;  
         text-align: center;
         text-decoration: none;
         border-radius: 10px;
-                
+        margin-bottom: 30px;
+               
     }
 
 
