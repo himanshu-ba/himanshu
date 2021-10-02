@@ -133,6 +133,7 @@ html {
 
 .container .banner .btn:hover {
   background-color: darkorange;
+  color: #fff;
   border-radius: 40px;
   width: 243px;
   -webkit-transition: all 0.5s ease-in-out 0.1s;
